@@ -3,6 +3,7 @@ package com.example.myapplicationcliente
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.myapplicationcliente.showNotification as showNotification1
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         btSend = findViewById(R.id.button_send_notification)
         btSend.setOnClickListener{
-            this.showNotification("1234", "booticamp Android", "Kotlin Android curso")
+            this.showNotification1("1234", "booticamp Android", "Kotlin Android curso")
         }
 
     }

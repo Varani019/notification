@@ -35,9 +35,7 @@ fun Context.showNotification(channelId: String , title: String , body: String){
             setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE))
             setContentIntent(pendingIntent)
         }
-    }else{
-        this.showNotification("1234", "booticamp Android", "Kotlin Android curso")
-
     }
+
     notificationManager.notify(channelId.toInt(), builder.build())
 }
