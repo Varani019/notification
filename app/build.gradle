@@ -45,7 +45,7 @@ dependencies {
     implementation 'com.google.firebase-analytics:18.0.1'
     implementation 'com.google.firebase-messaging:21.0.1'
     // e add essas lid do android FariBase
-    //implementation 'com.google.firebase-analytics:18.0.1'
+    //implementation 'com.google.firebase-analytics:18.0.1' 
     //implementation 'com.google.firebase-messaging:21.0.1
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
